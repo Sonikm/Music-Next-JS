@@ -79,3 +79,151 @@ export const testimonials = [
     title: "Author",
   },
 ];
+
+export const featuredWebinars = [
+  {
+    title: 'Understanding Music Theory',
+    description:
+      'Dive deep into the fundamentals of music theory and enhance your musical skills.',
+    slug: 'understanding-music-theory',
+    isFeatured: true,
+  },
+  {
+    title: 'The Art of Songwriting',
+    description:
+      'Learn the craft of songwriting from experienced musicians and songwriters.',
+    slug: 'the-art-of-songwriting',
+    isFeatured: true,
+  },
+  {
+    title: 'Mastering Your Instrument',
+    description:
+      'Advanced techniques to master your musical instrument of choice.',
+    slug: 'mastering-your-instrument',
+    isFeatured: true,
+  },
+  {
+    title: 'Music Production Essentials',
+    description:
+      'Get started with music production with this comprehensive overview.',
+    slug: 'music-production-essentials',
+    isFeatured: true,
+  },
+  // Added two more webinars
+  {
+    title: 'Live Performance Techniques',
+    description:
+      'Enhance your live performance skills with expert tips and strategies.',
+    slug: 'live-performance-techniques',
+    isFeatured: true,
+  },
+  {
+    title: 'Digital Music Marketing',
+    description:
+      'Learn how to promote your music effectively in the digital age.',
+    slug: 'digital-music-marketing',
+    isFeatured: true,
+  },
+];
+
+export const courseInstructors = [
+  {
+    id: 1,
+    name: "John Doe",
+    designation: "Software Engineer",
+    image:
+      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+  },
+  {
+    id: 2,
+    name: "Robert Johnson",
+    designation: "Product Manager",
+    image:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 3,
+    name: "Jane Smith",
+    designation: "Data Scientist",
+    image:
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    designation: "UX Designer",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 5,
+    name: "Tyler Durden",
+    designation: "Soap Developer",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+  },
+  {
+    id: 6,
+    name: "Dora",
+    designation: "The Explorer",
+    image:
+      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+  },
+];
+
+export const footerContent = [
+  {
+    title: "About Us",
+    links: [
+      { text: "Our Mission", url: "/about/mission" },
+      { text: "History", url: "/about/history" },
+      { text: "Faculty", url: "/about/faculty" },
+      { text: "Careers", url: "/about/careers" },
+    ],
+  },
+  {
+    title: "Programs",
+    links: [
+      { text: "Undergraduate Programs", url: "/programs/undergraduate" },
+      { text: "Graduate Programs", url: "/programs/graduate" },
+      { text: "Online Courses", url: "/programs/online" },
+      { text: "Summer Programs", url: "/programs/summer" },
+    ],
+  },
+  {
+    title: "Admissions",
+    links: [
+      { text: "Apply Now", url: "/admissions/apply" },
+      { text: "Tuition & Fees", url: "/admissions/tuition" },
+      { text: "Scholarships", url: "/admissions/scholarships" },
+      { text: "Visit Us", url: "/admissions/visit" },
+    ],
+  },
+  {
+    title: "Student Resources",
+    links: [
+      { text: "Library", url: "/resources/library" },
+      { text: "Practice Rooms", url: "/resources/practice-rooms" },
+      { text: "Student Portal", url: "/resources/portal" },
+      { text: "Counseling Services", url: "/resources/counseling" },
+    ],
+  },
+  {
+    title: "Events",
+    links: [
+      { text: "Concerts", url: "/events/concerts" },
+      { text: "Masterclasses", url: "/events/masterclasses" },
+      { text: "Workshops", url: "/events/workshops" },
+      { text: "Webinars", url: "/events/webinars" },
+    ],
+  },
+  {
+    title: "Contact Us",
+    links: [
+      { text: "General Inquiries", url: "/contact/general" },
+      { text: "Admissions Office", url: "/contact/admissions" },
+      { text: "Support Services", url: "/contact/support" },
+      { text: "Feedback", url: "/contact/feedback" },
+    ],
+  },
+];
