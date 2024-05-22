@@ -45,3 +45,37 @@ export const musicSchoolContent = [
       "Symphony Stars Music Academy empowers students to reach their full musical potential through dedicated teaching and mentorship. Our diverse programs include private lessons, theory classes, and performance workshops, all aimed at developing well-rounded musicians. We believe in the transformative power of music and strive to inspire each student to achieve their best.",
   },
 ];
+
+
+export const testimonials = [
+  {
+    quote:
+      "Music can change the world because it can change people. The lessons here were like a symphony, guiding me through the complexities of life with every note and chord.",
+    name: "Ludwig van Beethoven",
+    title: "Composer",
+  },
+  {
+    quote:
+      "Where words fail, music speaks. The instructors at this school helped me find my voice through the universal language of music.",
+    name: "Hans Christian Andersen",
+    title: "Author",
+  },
+  {
+    quote:
+      "Without music, life would be a mistake. This school gave me the tools to make music and, by extension, a more meaningful life.",
+    name: "Friedrich Nietzsche",
+    title: "Philosopher",
+  },
+  {
+    quote:
+      "The only truth is music. The dedication and passion of the teachers here have shown me that music is not just an art form, but a way of life.",
+    name: "Jack Kerouac",
+    title: "Writer",
+  },
+  {
+    quote:
+      "Music expresses that which cannot be said and on which it is impossible to be silent. The profound teachings at this school have allowed my music to speak volumes.",
+    name: "Victor Hugo",
+    title: "Author",
+  },
+];
