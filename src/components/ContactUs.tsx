@@ -10,8 +10,8 @@ function ContactUs() {
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     console.log("submitted:", { email, message });
-    setEmail('');
-    setMessage('');
+    setEmail("");
+    setMessage("");
   }
 
   return (
@@ -37,6 +37,8 @@ function ContactUs() {
             required
           />
           <textarea
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             className="border-none text-white min-h-[200px] outline-none placeholder:text-gray-500 p-4 bg-black rounded-lg max-w-[600px] inline-block w-full"
             placeholder="Your message"
             required
